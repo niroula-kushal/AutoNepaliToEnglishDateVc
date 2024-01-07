@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoNepaliToEnglishDateVc", "AutoNepaliToEnglishDateVc\AutoNepaliToEnglishDateVc.csproj", "{6ECFFA5F-96CB-48B4-851F-8435D2C6A502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverter", "nepali-date-converter\NepaliDateConverter\NepaliDateConverter.csproj", "{0DE8000C-2FAF-4593-8481-41D3FCD2F46C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ECFFA5F-96CB-48B4-851F-8435D2C6A502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECFFA5F-96CB-48B4-851F-8435D2C6A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECFFA5F-96CB-48B4-851F-8435D2C6A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECFFA5F-96CB-48B4-851F-8435D2C6A502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE8000C-2FAF-4593-8481-41D3FCD2F46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE8000C-2FAF-4593-8481-41D3FCD2F46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE8000C-2FAF-4593-8481-41D3FCD2F46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE8000C-2FAF-4593-8481-41D3FCD2F46C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

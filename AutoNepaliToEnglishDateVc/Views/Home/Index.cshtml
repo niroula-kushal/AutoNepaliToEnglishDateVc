@@ -1,0 +1,26 @@
+﻿@using AutoNepaliToEnglishDateVc.ViewComponents
+@model AutoNepaliToEnglishDateVc.ViewModels.HomeIndexVm
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form action="">
+    <div class="row">
+        <div class="col-3">
+            <vc:date-input-vc name="From" value="@Model.From"/>
+        </div>
+        <div class="col-3">
+            <vc:date-input-vc name="To" value="@Model.To"/>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-success">
+                <span class="fa fa-search"></span> Search
+            </button>
+        </div>
+    </div>
+</form>
